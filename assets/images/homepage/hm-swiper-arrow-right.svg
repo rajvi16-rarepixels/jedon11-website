@@ -1,0 +1,79 @@
+            <div class="testimonial-card-wrapper">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-card site-radius-20" style="background-color: #FFE8E3;">
+                                <span class="text-md h4 site-radius-20 testimonial-name-initial text-white"
+                                    style="background-color: #FF9077;">E</span>
+
+                                <p class="text-rg h6 testimonial-card-description">Thanks for doing this. I am glad i
+                                    signed
+                                    up and i think every
+                                    part of it has been well thought out. Everyday I engage with my son, I come across
+                                    scenarios in which i apply something I've learnt from your sessions.</p>
+
+                                <div class="testi-review-names">
+                                    <span class="text-md h5">Eve</span>
+                                    <span class="text-18 tex-rg text-secondary-black">Cohort</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card site-radius-20" style="background-color: #FDF5DC;">
+                                <span class="text-md h4 site-radius-20 testimonial-name-initial text-white"
+                                    style="background-color: #F5CD52;">S</span>
+
+                                <p class="text-rg h6 testimonial-card-description">It’s been an eye opener and I feel
+                                    more confident now going
+                                    through the process. You’d think you know so much beforehand but now I know I am in
+                                    a better place working with my child and know the sky is his limit.</p>
+
+                                <div class="testi-review-names">
+                                    <span class="text-md h5">Simi</span>
+                                    <span class="text-18 tex-rg text-secondary-black">Cohort</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card site-radius-20" style="background-color: #D9EBFA;">
+                                <span class="text-md h4 site-radius-20 testimonial-name-initial text-white"
+                                    style="background-color: #439BE9;">M</span>
+
+                                <p class="text-rg h6 testimonial-card-description">Your training has been very
+                                    informative. It’s been a real eye
+                                    opener, not just in terms of the 11+ process but it also gave us an insight to our
+                                    own approaches and how we can best support the children.</p>
+
+                                <div class="testi-review-names">
+                                    <span class="text-md h5">Mega</span>
+                                    <span class="text-18 tex-rg text-secondary-black">Cohort</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card site-radius-20" style="background-color: #E1F1EC;">
+                                <span class="text-md h4 site-radius-20 testimonial-name-initial text-white"
+                                    style="background-color: #69BCA1;">A</span>
+
+                                <p class="text-rg h6 testimonial-card-description">I don’t know what to say but God
+                                    bless you so much. The course has been an eye opener for me. I know my children had
+                                    it in them but for me to bring it out was the problem as I didn’t know where to
+                                    start from.</p>
+
+                                <div class="testi-review-names">
+                                    <span class="text-md h5">Abigail</span>
+                                    <span class="text-18 tex-rg text-secondary-black">Cohort</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </section>
