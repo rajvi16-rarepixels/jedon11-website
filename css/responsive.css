@@ -17,7 +17,7 @@
     h4, .h4{ font-size: 26px; line-height: 34px; }
     h6, .h6{ font-size: 18px; line-height: 26px; }
 
-    .website-logo{ width: 150px; }
+    .website-logo{ width: 150px; object-fit: contain; }
     .nav-bar-wrapper{ padding: 25px 20px; }
     .home-hero-degree-cap{ width: 155px; height: auto;  }
     .cta-join-btn{ font-size: 16px; line-height: 24px; }
@@ -634,10 +634,10 @@
 
 @media screen and (max-width: 459px){
     .home-hero-stats-wrapper{ flex-direction: column; justify-content: space-between; gap: 0; margin-top: 20px;  }
-    .home-hero-wrapper{ height:595px; }
+    .home-hero-wrapper{ height:555px; }
     .home-hero-text-wrapper .home-hero-quote{ margin-left: 80px; }
-    .home-hero-kid-image-1{ width: 65px; bottom: 210px; left: 20px; }
-    .home-hero-kid-image-2{ width: 65px; bottom: 210px; right: 20px; }
+    .home-hero-kid-image-1{ width: 65px; bottom: 180px; left: 20px; }
+    .home-hero-kid-image-2{ width: 65px; bottom: 180px; right: 20px; }
     /* .home-hero-stats-2{ margin-left: 200px; } */
     .home-hero-svg-right{ bottom: 140px; }
     .home-hero-svg-center{ width: 57px; transform: rotate(30deg); bottom: 76px; }
@@ -652,6 +652,12 @@
     .home-hero-stats-2{ margin-top: 0; }
     .home-hero-svg-left{ display: none; }
     .blog-card-1 img{ height: 180px; }
+    .hm-stats-text-wrapper{ display: flex; align-items: center; gap: 20px; }
+    .home-hero-svg-center{ display: none; }
+    .hm-stats-text-wrapper{ width: 100%; }
+    .hm-stats-text-wrapper h2{ margin-bottom: 0; }
+    .home-hero-stats-1{ align-items: center; }
+    .home-hero-stats-wrapper{ gap: 20px; }
 }
 
 @media screen and (max-width: 400px){

@@ -101,7 +101,6 @@ body { font-family: 'poppins-rg';  }
 .text-12 { font-size: 12px; line-height: 18px; }
 
 /* section chip */
-
 .section-chip-wrapper .hr{ background: linear-gradient(50deg, #00529A 0%, #FA2E00 100% ); }
 
 /* header */
@@ -137,7 +136,6 @@ body { font-family: 'poppins-rg';  }
 .cta-join-btn-w rapper a{ color: var(--white); display: flex; align-items: center; gap: 4px; }
 .cta-icon-1{ position: absolute; top: 0; left: 0; }
 .cta-icon-2{ position: absolute; top: 0; right: 0; }
-/* .cta-join-btn-wrapper:hover .cta-arrow-btn{ rotate: 45deg; } */
 
 /* home hero */
 .home-hero-wrapper{ background-color: var(--primary-light); width: 100%; height: 900px; position: relative; overflow: hidden; }
@@ -151,7 +149,6 @@ body { font-family: 'poppins-rg';  }
 .hm-stats-text-wrapper{ width: 250px;}
 .hm-stats-text-wrapper p{ width: 250px; margin-bottom: 0; }
 .home-hero-stats-wrapper{ display: flex; align-items: flex-start; justify-content: center; gap: 90px; }
-/* .home-hero-stats-1{ position: absolute; left: 32%; bottom: 146px; } */
 .home-hero-stats-2{ margin-top: 40px; }
 .home-hero-kid-image-1{ position: absolute; bottom: 170px; left: 179px; }
 .home-hero-kid-image-2{ position: absolute; bottom: 206px; right: 179px; }
@@ -168,7 +165,6 @@ body { font-family: 'poppins-rg';  }
 /* home-how-it-works */
 
 .home-how-it-works-text-wrapper{ width: 520px; }
-/* .home-how-it-works-text-wrapper h2{ padding-top: 20px; } */
 .section-chip-wrapper{ display: flex; align-items: center; gap: 11px; margin-bottom: 20px; }
 .section-chip-wrapper .hr{ width: 48px; height: 1px; }
 .how-it-works-wrapper{ display: flex; align-items: flex-start; justify-content: space-between; padding-bottom: 10px;}
@@ -265,12 +261,10 @@ body { font-family: 'poppins-rg';  }
 
 .explore-exams-title-text-wrapper{ margin: 0 auto; text-align: center; }
 .explore-exams-title-text-wrapper .section-chip-wrapper{ justify-content: center; }
-/* .explore-exams-title-text-wrapper h2{ margin-top: 30px; } */
 .explore-exams-button-wrapper{ display: flex; align-items: center; justify-content: center; margin-top: 30px; padding: 4px; padding-bottom: 10px; border-bottom: 1px solid #F2F2F2; }
 .explore-exams-button-wrapper button{ padding: 8px 20px; background-color: transparent; border: none; margin-bottom: 0; cursor: pointer; }
 .explore-exams-button-wrapper button.active{ background-color: var(--orange); color: var(--white);  }
 .explore-exams-card-text{ padding: 30px; }
-/* .explore-exams-card{ width: 345px; height: 214px; } */
 .explore-exams-content{ display: flex; align-items: center; justify-content: center; gap: 20px; padding-top: 60px; }
 .explore-exams-card{ width: calc(349px - 4px); height: 214px; }
 .explore-exams-content span{ margin-bottom: 0; }
@@ -279,7 +273,6 @@ body { font-family: 'poppins-rg';  }
 .testimonial-title-text-wrapper{ display: flex; justify-content: space-between; }
 .testimonial-title-text-wrapper h2{ width: 666px; }
 .testimonial-text-right{ width: 548px; }
-/* .testimonial-card-wrapper .swiper-wrapper{ display: flex; align-items: center; justify-content: center; margin-top: 60px } */
 .swiper-wrapper{ margin-top: 30px; }
 .testimonial-card.swiper-slide { width: 440px; height: 500px !important; padding: 40px; }
 .testimonial-name-initial{ padding: 11px 17px; }
@@ -288,7 +281,6 @@ body { font-family: 'poppins-rg';  }
 .testi-review-names{ display: flex; flex-direction: column; }
 .testi-review-names h5, .h5{ margin-bottom: 0; }
 .swiper-button-next, .swiper-button-prev{ color: #B8B8B8 !important; }
-/* .testimonial-swiper-left{ width: 50px; height: 50px; border-radius: 20px; } */
 .testimonial-swiper-left{ width: max-content; border-radius: 20px; background-color: #F2F2F2; padding: 10px; cursor: pointer; }
 .testimonial-swiper-right{ width: max-content; border-radius: 20px; background-color: #F2F2F2; padding: 10px;  cursor: pointer; }
 
@@ -323,7 +315,6 @@ body { font-family: 'poppins-rg';  }
 .accordion-header button{ display: flex; gap: 30px; border: 1px solid #E1F1EC; outline: none !important; box-shadow: none !important; }
 .accordion-arrow{ font-size: 24px; line-height: 30px; color: var(--orange); }
 .accordion-collapse{ border: none !important; }
-/* .accordion-button:not(.collapsed) .accordion-arrow{ display: none; } */
 .accordion-body-vertical-line{ width: 1px; height: 72px; background-color: var(--orange); }
 .accordion-body{ display: flex; align-items: flex-start; gap: 20px; padding-left: 70px !important; margin-bottom: 0; color: #7E7E7E; }
 .accordion-body p{ margin-bottom: 0; }
@@ -334,7 +325,6 @@ body { font-family: 'poppins-rg';  }
 .accordion-wrapper ul li label{ display: flex; align-items: center; justify-content: flex-start; gap: 25px; cursor: pointer; margin-bottom: 0; }
 .accordion-wrapper ul li input[type = "radio"] { display: none; }
 .accordion-content{ 
-    /* margin-top: 20px; */
     border-left: 1px solid var(--orange); 
     padding-left: 18px; 
     margin-left: 40px; 
@@ -371,12 +361,7 @@ body { font-family: 'poppins-rg';  }
 .pathway-content{ display: none;  animation: fade-in 0.5s ease-in-out ;  }
 .pathway-content.active{ display: block;}
 
-
-.hamburger{ 
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
+.hamburger{  display: flex; flex-direction: column; gap: 4px; }
 .hamburger span{ width: 20px; height: 1px; background-color: var(--black); }
 .nav-menu{
     position: absolute;
@@ -407,9 +392,7 @@ body { font-family: 'poppins-rg';  }
 .explore-wrapper-for-responsive ul li label button{ outline: none; background-color: transparent; border: none; }
 .explore-wrapper-for-responsive ul li input[type = "checkbox"] { display: none; }
 .explore-content-wrapper-for-responsive{ 
-    /* margin-top: 20px; */
     border-left: 1px solid var(--orange); 
-    /* padding-left: 18px;  */
     margin-left: 40px; 
     max-height: 0;
     overflow: hidden;
