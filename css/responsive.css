@@ -109,7 +109,7 @@
     /* .home-hero-stats-2{ right: 27%; } */
     .home-hero-svg-center{ left: 46%; bottom: 67px; }
     .hm-stats-text-wrapper h2{ font-size: 28px; line-height: 36px; }
-    .how-it-works-wrapper h1{ font-size: 38px; line-height: 46px; }
+    .how-it-works-wrapper span{ font-size: 38px; line-height: 46px; }
     .how-it-wroks-card{ width: 280px !important; height: 260px !important; padding: 25px; }
     .how-it-wroks-card-2{ left: 305px; }
     .how-it-wroks-card-3{ right: 305px; }
@@ -285,7 +285,7 @@
     .arrow-next{ width: 20px; height: 20px; }
     .how-it-works-icon img{ width: 16px; height: 16px; }
     .how-it-wroks-card h3{ font-size: 18px; line-height: 26px; padding-bottom: 0; }
-    .how-it-works-wrapper h1{ font-size: 28px; line-height: 38px; }
+    .how-it-works-wrapper span{ font-size: 28px; line-height: 38px; }
     .how-it-wroks-card p{ font-size: 14px; line-height:20px; }
     .how-it-wroks-card{ width: 230px !important; height: 235px !important; padding: 20px; }
     .how-it-wroks-card-1::before{ left: 235px; width: 115px; }
