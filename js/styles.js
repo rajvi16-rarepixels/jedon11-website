@@ -1,7 +1,7 @@
 const testimonialSwiper = new Swiper('.testimonial-swiper', {
   loop: true,
   // slidesPerView: 3,
-  spaceBetween: 30,
+  spaceBetween: 20,
   autoPlay: true,
   delay: 1000,
 
@@ -70,16 +70,19 @@ const mentorSwiper = new Swiper('.mentor-swiper', {
 });
 
 const hamburger = document.querySelector('.hamburger');
-const navmenu = document.querySelector('.nav-menu');
+const navMenu = document.querySelector('.nav-menu');
 
 hamburger.addEventListener("click", () => {
+  console.log("clicked");
 
+  hamburger.classList.toggle(('active'));
+  navMenu.classList.toggle(('active'));
 })
 
 const whatweSwiper = new Swiper('.what-we-offer-swiper', {
   loop: true,
   // slidesPerView: 3,
-  spaceBetween: 30,
+  spaceBetween: 20,
   autoPlay: true,
   delay: 1000,
 

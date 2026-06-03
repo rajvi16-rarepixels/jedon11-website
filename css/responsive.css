@@ -25,10 +25,10 @@
     .home-hero-kid-image-2{ width: 300px; height: auto; }
 
     .home-hero-svg-right{ width: 780px; }
-    .home-hero-stats-1{ left: 30%; }
+    /* .home-hero-stats-1{ left: 30%; } */
     .hm-stats-text-wrapper p{ font-size: 22px; line-height: 30px; }
     .home-hero-stats-icon img{ width: 20px; height: 20px; }
-    .home-hero-svg-center{ left: 43%; }
+    .home-hero-svg-center{ left: 44%; }
 
     .how-it-wroks-card{ width: 305px !important; height: 265px !important; }
     .how-it-wroks-card-2{ left: 330px; }
@@ -54,7 +54,7 @@
     .explore-exams-card-text .h4{ font-size: 24px; line-height: 32px; }
     .testimonial-card-description{ height: 235px; padding-bottom: 40px; margin-bottom: 20px; }
 
-    .testimonial-card.swiper-slide{ height: 430px !important; }
+    .testimonial-card.swiper-slide{ height: 420px !important; }
     .testimonial-card-list{ margin-bottom: 70px; }
     .testimonial-name-initial{ font-size: 20px; line-height: 26px; padding: 10px 15px; }
     
@@ -76,6 +76,10 @@
     .mentor-card img{ width: 100%; height: 100%; object-fit: cover; }
     .mentor-text-wrapper .h4{ font-size: 20px; line-height: 26px; }
     .mentor-text-wrapper p{ font-size: 14px; line-height: 20px; }
+    /* .home-hero-stats-2{ right: 30%; } */
+    .hm-what-we-offer-btn-wrapper{ padding-top: 30px; padding-bottom: 45px; }
+    .blog-card-1 img{ height: 633px; }
+    .home-hero-stats-wrapper{ margin-top: 60px; }
 }
 
 @media screen and (max-width: 1599px){
@@ -98,10 +102,12 @@
     .home-hero-kid-image-2{ width: 210px; bottom: 270px; }
     .cta-join-btn{ font-size: 14px; }
     .home-hero-text-wrapper p{ width: 585px; padding-bottom: 40px; }
-    .home-hero-svg-right{ width: 604px; right: -55px; }
+    .home-hero-svg-right{ width: 604px; right: -55px; bottom: 125px; }
+    .hm-stats-text-wrapper{ width: 180px; }
     .cta-join-btn{ padding: 10px 30px; }
     .cta-arrow-btn{ padding: 10px 12px; }
-    .home-hero-stats-2{ right: 30%; }
+    /* .home-hero-stats-2{ right: 27%; } */
+    .home-hero-svg-center{ left: 46%; bottom: 67px; }
     .hm-stats-text-wrapper h2{ font-size: 28px; line-height: 36px; }
     .how-it-works-wrapper h1{ font-size: 38px; line-height: 46px; }
     .how-it-wroks-card{ width: 280px !important; height: 260px !important; padding: 25px; }
@@ -113,10 +119,10 @@
     .how-it-works-icon img{ width: 20px; height: 20px; border-radius: 5px !important; }
     .hm-abt-right{ height: 380px; }
     .hm-abt-text-center-wrapper{ width: 430px; }
-    .hm-what-we-offer-btn-wrapper button.h4{ font-size: 20px; line-height: 28px; }
+    .hm-what-we-offer-btn-wrapper .pathway-tab.h4{ font-size: 20px; line-height: 28px; }
     .hm-what-we-offer-btn-wrapper{ padding-top: 25px; padding-bottom: 50px; }
     .what-we-offer-button-text-wrapper{ width: 600px; height: 350px; }
-    .what-we-are-img-text-wrapper{ width: 460px; bottom: 10px; left: 30px; }
+    .what-we-are-img-text-wrapper{ width: 460px; bottom: 10px; left: 20px; }
     .nav-links-wrapper ul li.text-18{ font-size: 16px; line-height: 22px; }
     .nav-bar-wrapper{ padding: 20px 15px; }
     .nav-links-wrapper ul li{ padding: 6px 12px; }
@@ -143,21 +149,26 @@
 
     .blog-card-1{ width: 495px; }
     .blog-card-1 img{ height: 500px; }
-    .knowledge-column-2, .knowledge-column-3{ width: 320px; }
     .blog-card-2 img{ width: 100%; height: 200px; object-fit: cover; border-radius: 20px; }
     .blog-card-3 img{ width: 100%; height: 200px; object-fit: cover; border-radius: 20px; }
 
     .knowledge-column-2 h4, .knowledge-column-3 h4{ font-size: 18px; line-height: 28px; }
     .blog-card-1 h3{ font-size: 18px; line-height: 28px; }
-    .knowledge-column-2, .knowledge-column-3{ gap: 20px; }
+    .knowledge-column-2, .knowledge-column-3{ gap: 20px; width: 334px; }
+    .knowledge-card-wrapper{ margin-top: 20px; gap: 20px; }
 
-    .knowledge-card-wrapper{ margin-top: 20px; }
     .knowledge-hub-text-wrapper h2{ width: 600px; }
     .faq-section-left img{ width: 380px; }
     .accordion-wrapper ul li{ margin-bottom: 20px; }
     .accordion-content{ margin-left: 35px; }
     .cta-icon-2{ width: 210px; height: auto; right: -6px; }
     .footer-social-links-wrapper img{ width: 22px; height: 22px; }
+    .mentor-text-wrapper{ width: 295px; }
+    .testimonial-name-initial{ display: inline-block; margin-bottom: 0; }
+    .testimonial-card.swiper-slide{ padding: 20px; }
+    .home-hero-stats-wrapper{ gap: 50px; }
+    .home-hero-text-wrapper .home-hero-quote{ width: 382px; }
+    .testimonial-text-right{ width: 440px; }
 }
 
 @media screen and (max-width: 1439px){
@@ -174,7 +185,8 @@
     .home-hero-svg-left{ width: 340px; left: -95px; }
     .hm-stats-text-wrapper h2{ font-size: 24px; line-height: 30px; }
     .hm-stats-text-wrapper p{ font-size: 18px; line-height: 24px; width: 100%; }
-    .hm-stats-text-wrapper{ width: 205px; }
+    .hm-stats-text-wrapper{ width: 145px; }
+    .home-hero-stats-wrapper{ margin-top: 30px; }
     .how-it-works-card-wrapper{ padding-top: 160px; }
     .how-it-wroks-card{ width: 255px !important; height: 280px !important; }
     .how-it-wroks-card-2{ left: 268px; }
@@ -187,15 +199,15 @@
     .hm-abt-circle{ right: 295px; }
     .hm-abt-arrow-text-circle{ width: 85px; height: 85px; }
     .hm-abt-arrow-circle{ width: 30px; height: 30px; }
-    .what-we-are-img-text-wrapper{ width: 370px; left: 25px; }
+    .what-we-are-img-text-wrapper{ width: 370px; }
     .what-we-offer-button-text-wrapper{ width: 550px; height: 330px; }
     .tab4-content.active{ right: -510px; }
     .explore-exams-card{ width: 250px; }
     .testimonial-title-text-wrapper h2{ width: 425px; }
     .testimonial-text-right{ width: 520px; }
     .testimonial-name-initial{ font-size: 18px; line-height: 18px; }
-    .testimonial-card-description{ height: 245px; }
-    .testimonial-card.swiper-slide{ height: 415px !important; }
+    .testimonial-card-description{ height: 222px; }
+    .testimonial-card.swiper-slide{ height: 360px !important; }
     .knowledge-column-2 h4, .knowledge-column-3 h4{ font-size: 16px; line-height: 22px; }
     .blog-card-1 h3{ font-size: 16px; line-height: 22px; }
 
@@ -211,6 +223,7 @@
     .cta-join-btn-wrapper input{ width: 300px; height: 50px; }
     .footer-contact-detail ul li a .text-16{ font-size: 14px; line-height: 20px; }
     .footer-contact-detail ul li a img{ width: 14px; height: 14px; }
+    .home-hero-svg-center{ width: 60px; left: 47%; bottom: 77px; }
 }
 
 @media screen and (max-width: 1359px){
@@ -226,13 +239,14 @@
     .home-hero-kid-image-1{ width: 160px; bottom: 210px; }
     .home-hero-kid-image-2{ width: 160px; bottom: 210px; }
     .home-hero-degree-cap { width: 100px; top: -33px; right: -57px; }
-    .home-hero-text-wrapper .home-hero-quote{ padding-top: 30px; margin-left: 260px; }
+    .home-hero-text-wrapper .home-hero-quote{ padding-top: 30px; margin-left: 260px; width: 300px; }
     .hm-stats-text-wrapper h2{ font-size: 20px; line-height: 28px; }
     .hm-stats-text-wrapper p{ font-size: 14px; line-height: 20px; }
     .home-hero-stats-icon{ display: flex !important; align-items: center; justify-content: center; }
-    .home-hero-stats-1{ bottom: 100px; }
+    /* .home-hero-stats-1{ bottom: 100px; left: 33%; } */
     .home-hero-svg-left { width: 274px; left: -77px; }
-    .home-hero-svg-center{ width: 60px; left: 42%; bottom: 38px; }
+    .home-hero-svg-center{ width: 60px; left: 47%; bottom: 67px; }
+    .hm-what-we-offer-btn-wrapper{ padding-top: 10px; padding-bottom: 30px; }
     .home-hero-svg-right{ width: 540px; }
     .home-how-it-works-text-wrapper{ width: 440px; }
     .hm-abt-text-center-wrapper{ width: 340px; }
@@ -246,7 +260,6 @@
     .explore-exams-card{ width: 225px; height: 160px; }
     .explore-exams-button-wrapper button{ font-size: 18px; line-height: 24px; }
     .testimonial-card-description{ height: 210px; padding-bottom: 30px; }
-    .testimonial-card.swiper-slide{ height: 370px !important; padding: 30px; }
     .accordion-wrapper{ width: 490px; }
     .accordion-wrapper ul li{ padding: 20px; }
     .faq-section-left img{ width: 290px; }
@@ -259,13 +272,13 @@
     .nav-links-wrapper ul{ gap: 8px; }
     .nav-bar-wrapper{ padding: 12px 15px; }
     .blog-card-2 img, .blog-card-3 img{ height: 165px; }
-    .blog-card-1 img{ height: 420px; }
+    .blog-card-1 img{ height: 418px; }
     .mentor-card{ height: 250px !important; }
     .testimonial-name-initial{ font-size: 16px; line-height: 16px; padding: 10px 12px; }
     .knowledge-hub-text-wrapper h2{ width: 430px; }
     .knowledge-hub-text-wrapper p{ width: 380px; }
     .testimonial-card-description{ height: 190px; }
-    .testimonial-card.swiper-slide{ height: 340px !important; }
+    .testimonial-card.swiper-slide{ height: 330px !important; }
     .testimonial-swiper-arrow{ width: 20px; height: 20px; }
     .site-radius-20{ border-radius: 14px; }
     .arrow-prev{ width: 20px; height: 20px; }
@@ -288,6 +301,9 @@
     .footer-logo-wrapper{ width: 320px; }
     .footer-social-links-wrapper img{ width: 14px; height: 14px; }
     .footer-copy-right-wrapper{ padding-top: 35px; }
+    /* .home-hero-stats-2{ bottom: 67px; } */
+    .hm-stats-text-wrapper{ width: 115px; }
+    .home-hero-stats-wrapper{ margin-top: 0; }
 } 
 
 @media screen and (max-width: 1199px){
@@ -309,8 +325,8 @@
     .home-hero-svg-right{ width: 420px; right: -40px; }
     .home-hero-stats-icon img{ width: 16px; height: 16px; }
     .hm-stats-text-wrapper h2{ font-size: 18px; line-height: 26px; }
-    .hm-stats-text-wrapper{ width: 140px; }
-    .home-hero-svg-center{ left: 45%; }
+    /* .hm-stats-text-wrapper{ width: 140px; } */
+    .home-hero-svg-center{ left: 46%; bottom: 57px; }
     .home-hero-svg-left{ width: 230px; left: -60px; }
     /* .home-how-it-works-text-wrapper{ width: 385px;  }
     .how-it-wroks-card{ width: 335px !important; height: 170px !important; }
@@ -322,23 +338,23 @@
     .hm-abt-arrow-text-circle{ width: 70px; height: 70px; }
     .hm-abt-arrow-circle{ width: 25px; height: 25px; }
     .hm-abt-circle{ width: 70px; height: 70px; right: 195px; }
-    .hm-what-we-offer-btn-wrapper button.h4{ font-size: 16px; line-height: 22px; }
+    .hm-what-we-offer-btn-wrapper .pathway-tab.h4{ font-size: 16px; line-height: 22px; }
     .hm-what-we-offer-btn-wrapper{ padding-top: 10px; padding-bottom: 30px; }
     .what-we-offer-button-text-wrapper{ width: 395px; height: 210px; }
     .what-we-are-img-text-wrapper{ width: 335px; }
-    .what-we-are-img-text-wrapper h4{ margin-bottom: 10px; }
+    .what-we-are-img-text-wrapper .h4{ margin-bottom: 10px; }
     .tab4-content.active{ right: -405px; }
     .hm-we-offer-arrow-wrapper{ padding-top: 40px; }
     .explore-exams-button-wrapper button{ font-size: 16px; line-height: 24px; }
     .testimonial-card-description{ height: 145px; }
     .testimonial-card-description{ border-bottom: 1px solid #d6d6d6; }
-    .testimonial-card.swiper-slide{ padding: 20px; height: 265px !important; }
+    .testimonial-card.swiper-slide{ padding: 20px; height: 260px !important; }
     .testimonial-card-list{ margin-bottom: 40px; }
-    .testi-review-names{ gap: 5px; }
+    /* .testi-review-names{ gap: 5px; } */
     .mentor-card{ height: 200px !important; }
     .mentor-text-wrapper .h4{ font-size: 18px; }
     .mentor-text-wrapper p{ font-size: 12px; }
-    .mentor-text-wrapper{ width: 305px; bottom: 20px; }
+    .mentor-text-wrapper{ width: 305px; bottom: 20px; left: 20px; }
     .hm-abt-text-left{ gap: 30px; }
     .testimonial-card-list.swiper-wrapper{ margin-top: 0; }
     .mentor-title-wrapper .section-chip-wrapper{ margin-bottom: 20px; }
@@ -348,7 +364,7 @@
     .blog-card-1{ width: 300px; }
     .knowledge-column-2 h4, .knowledge-column-3 h4{ font-size: 14px; line-height: 20px; }
     .blog-card-2 img, .blog-card-3 img{ height: 145px; }
-    .blog-card-1 img{ height: 375px; }
+    .blog-card-1 img{ height: 371px; }
     .knowledge-hub-text-wrapper p{ width: 320px; }
     .accordion-wrapper ul li{ padding: 15px; }
     .cta-join-btn-wrapper{ gap: 10px; }
@@ -368,34 +384,37 @@
     .explore-exams-card-text .h4{ font-size: 14px; line-height: 22px; margin-bottom: 12px; }
     .explore-exams-card{ padding: 15px; }
     .explore-exams-card{ width: 185px; height: 145px; }
-    .how-it-wroks-card{ width: 195px !important; height: 235px !important; }
+    .how-it-wroks-card{ width: 190px !important; height: 230px !important; }
     .how-it-works-card-wrapper{ padding-top: 195px; }
     .how-it-wroks-card-2{ left: 202px; }
     .how-it-wroks-card-3{ right: 202px; }
     .how-it-wroks-card p{ font-size: 12px; line-height: 18px; }
-    .how-it-wroks-card-1::before{ left: 195px; }
-    .how-it-wroks-card-2::before{ left: 195px; }
-    .how-it-wroks-card-3::before{ left: 195px; }
+    .how-it-wroks-card-1::before{ left: 190px; }
+    .how-it-wroks-card-2::before{ left: 190px; }
+    .how-it-wroks-card-3::before{ left: 190px; }
     .testimonial-name-initial{ font-size: 16px; line-height: 16px; }
     .testimonial-card-description{ height: 120px; padding-bottom: 15px; padding-top: 30px; }
     .testimonial-name-initial{ display: inline-block; margin-bottom: 0; }
     .nav-links-wrapper ul li{ padding: 6px 0; }
     .nav-links-wrapper ul{ gap: 15px; }
     .nav-bar-wrapper{ padding: 15px; }
+    .home-hero-text-wrapper .home-hero-quote{ width: 280px; }
 }
 
-@media screen and (max-width: 1023px){}
+@media screen and (max-width: 1023px){
+    .home-hero-text-wrapper .home-hero-quote{ margin-left: 230px; }
+}
 
 @media screen and (max-width: 991px){
     h1, .h1{ font-size: 26px; line-height: 36px; }
 
     .home-hero-degree-cap { width: 80px; top: -25px; right: -42px; }
-    .home-hero-wrapper{ height: 530px; }
+    .home-hero-wrapper{ height: 575px; }
     .home-hero-kid-image-1{ width: 110px; left: 95px; bottom: 200px; }
     .home-hero-kid-image-2{ width: 110px; right: 95px; bottom: 200px; }
     .home-hero-svg-left { width: 197px; left: -57px; bottom: 53px; }
     .home-hero-svg-right { width: 361px; right: -37px; bottom: 45px; }
-    .home-hero-stats-2{ right: 25%; }
+    /* .home-hero-stats-2{ right: 25%; } */
     .home-hero-svg-center { width: 66px; left: 45%; bottom: 31px; }
     .home-hero-stats-1{ bottom: 90px; }
 }
@@ -407,11 +426,12 @@
     h2, .h2{ font-size: 20px; line-height: 26px; }
 
     .website-logo{ width: 85px; }
-    .home-hero-stats-1{ left: 25%; }
-    .home-hero-stats-2{ right: 23%; }
+    /* .home-hero-stats-1{ left: 25%; } */
+    /* .home-hero-stats-2{ right: 23%; } */
     .home-hero-svg-right { width: 316px; right: -32px; bottom: 53px; }
     .how-it-works-card-wrapper{ padding-top: 0; }
-    .how-it-wroks-card { width: 365px !important; height: 150px !important; padding: 15px; }
+    .how-it-wroks-card h3{ margin-bottom: 8px; }
+    .how-it-wroks-card { width: 380px !important; height: 140px !important; padding: 15px; }
     .how-it-wroks-card h3{ font-size: 16px; line-height: 20px; }
     .how-it-wroks-card-2, .how-it-wroks-card-3, .how-it-wroks-card-4{ position: static; }
     .how-it-works-card-wrapper{ flex-direction: column; gap: 15px; align-items: flex-start; }
@@ -419,56 +439,60 @@
     .how-it-wroks-card-3{ margin-left: 250px; }
     .how-it-wroks-card-4{ margin-left: 350px; }
 
-    .how-it-wroks-card-1::before{ position: absolute; transform: rotate(90deg); bottom: 400px; left: 55px; }
-    .how-it-wroks-card-2::before{ transform: rotate(90deg); bottom: 237px; left: 156px; }
-    .how-it-wroks-card-3::before{ transform: rotate(90deg); bottom: 72px; left: 257px; }
+    .how-it-wroks-card-1::before{ position: absolute; transform: rotate(90deg); bottom: 373px; left: 55px; }
+    .how-it-wroks-card-2::before{ transform: rotate(90deg); bottom: 218px; left: 156px; }
+    .how-it-wroks-card-3::before{ transform: rotate(90deg); bottom: 62px; left: 257px; }
     .hm-abt-text-left{ flex-direction: column; gap: 20px; }
-    .hm-abt-text-center-wrapper{ width: 375px; }
-    .hm-abt-right{ width: 530px; }
+    .hm-abt-text-center-wrapper{ width: 330px; }
+    .hm-abt-right{ width: 458px; right: -115px; }
     .hm-abt-text-left{ padding-top: 0; }
-    .hm-abt-circle{ right: 270px; bottom: 40px; }
+    .hm-abt-circle{ right: 315px; bottom: 40px; }
     .explore-exams-content{ flex-wrap: wrap; gap: 20px; }
     .mentor-card{ height: 185px !important; }
-    .knowledge-hub-text-wrapper{ flex-direction: column; margin-bottom: 20px; }
-    .knowledge-hub-text-wrapper h2{ width: 100%; margin-bottom: 12px; }
-    .knowledge-hub-text-wrapper p{ width: 100%; }
+
+    .knowledge-hub-text-wrapper h2{ width: 370px; }
     .blog-card-1{ width: 258px; }
     .testimonial-card-description{ padding-top: 20px; height: 105px; }
     .testimonial-card.swiper-slide{ height: 250px !important; }
     .faq-section-left{ width: 300px; }
     .faq-section-left img{ width: 230px; }
-    .hm-what-we-offer-btn-wrapper button.h4{ font-size: 14px; line-height: 20px; }
+    .hm-what-we-offer-btn-wrapper .pathway-tab.h4{ font-size: 14px; line-height: 20px; }
     .tab2-content.active{ left: 90px; }
     .tab4-content.active{ right: -335px; }
     .explore-exams-content{ gap: 15px; }
     .explore-exams-card{ width: 171px; }
     .cta-text-left{ width: 350px; }
+    .hm-abt-text-left{ gap: 0; }
+    .knowledge-column-2 h4, .knowledge-column-3 h4{ margin-top: 10px; }
+    .blog-card-1 h3{ margin-top: 10px; }
+    .blog-card-1 img{ height: 362px; }
 }
 
 @media screen and (max-width: 767px){
     h1, .h1{ font-size: 22px; line-height: 30px; }
 
-    .hamburger{ display: flex !important; }
+
     .home-hero-text-wrapper{ padding-top: 100px; }
-    .home-hero-wrapper{ height: 485px; }
+    .home-hero-wrapper{ height: 540px; }
     .nav-links-wrapper{ display: none; }
     .nav-bar-wrapper{ padding: 20px 15px; }
     .home-hero-degree-cap{ width: 74px; }
     .home-hero-stats-1{ position: static; }
     .home-hero-stats-2{ position: static; }
     .home-hero-stats-wrapper{ display: flex; align-items: flex-start; justify-content: center; }
-    .home-hero-svg-center { width: 49px; left: 42%; bottom: 18px; }
+    .home-hero-svg-center { width: 49px; left: 44%; bottom: 32px; }
     .home-hero-kid-image-1 { width: 110px; left: 35px; bottom: 150px; }
     .home-hero-kid-image-2 { width: 110px; right: 35px; bottom: 150px; }
     .home-hero-text-wrapper .home-hero-quote { width: 270px; margin-left: 95px; }
-    .home-hero-svg-right { width: 217px; right: -19px; bottom: 64px; }
+    .home-hero-svg-right { width: 217px; right: -19px; bottom: 119px; }
+    .home-hero-stats-2{ margin-top: 20px; }
     .home-hero-svg-left { width: 152px; left: -43px; bottom: 53px; }
-    .how-it-wroks-card-2, .how-it-wroks-card-3, .how-it-wroks-card-4{ margin-left: 0; }
+    /* .how-it-wroks-card-2, .how-it-wroks-card-3, .how-it-wroks-card-4{ margin-left: 0; } */
     .hm-what-we-offer-btn-wrapper{ width: 100%; overflow-x: scroll; }
-    .hm-what-we-offer-btn-wrapper button.h4{ width: 100%; }
+    .hm-what-we-offer-btn-wrapper .pathway-tab.h4{ width: 100%; }
     .hm-what-we-offer-text-wrapper{ text-align: left; }
     .hm-what-we-offer-text-wrapper .section-chip-wrapper{ justify-content: flex-start; margin-bottom: 20px; }
-    .testimonial-card.swiper-slide{ height: 240px !important; }
+    .testimonial-card.swiper-slide{ height: 230px !important; }
     .testimonial-card-description{ height: 140px; }
     .mentor-card{ height: 220px !important; }
     .footer-links-wrapper{ gap: 30px; }
@@ -488,10 +512,12 @@
     .hm-abt-right{ position: static; }
     .hm-abt-text-wrapper-for-responsive{ display: flex; flex-direction: column; gap: 20px; }
     .hm-abt-text-wrapper-for-responsive h2{ margin-bottom: 0; }
-    .hm-abt-content-wrapper{ flex-direction: column; gap: 20px; }
+    .hm-abt-content-wrapper{ flex-direction: column; }
     .hm-abt-text-wrapper-for-desktop{ display: none; }
     .hm-abt-text-center-wrapper p{ padding-bottom: 0; }
     .hm-abt-circle { right: -21px; bottom: 124px; }
+    .hm-abt-text-center-wrapper{ width: 100%; }
+    .hm-abt-text-center-wrapper p{ width: 80%; }
 
     .path-way-tabs-for-desktop{ display: none; }
     .what-we-offer-button-text-wrapper{ width: 100%; }
@@ -506,7 +532,7 @@
     .what-we-offer-swiper-left:hover .testimonial-path{ fill: var(--black); }
 
     .explore-exams-tab-desktop{ display: none; }
-    .explore-exams-tab-for-responsive{ display: block; }
+    .explore-exams-tab-for-responsive{ display: block; padding-top: 20px; }
     .explore-exams-card-text ul li{ border: none !important; padding: 0 !important; margin-bottom: 0; }
     .explore-exams-card{ width: 100%; height: max-content; }
     .tab-content.active{ flex-direction: column; }
@@ -517,15 +543,40 @@
     .explore-wrapper-for-responsive ul li{ padding: 18px 20px; }
     .testimonial-title-text-wrapper{ flex-direction: column; }
     .testimonial-card-description{ height: 95px; }
+
+    .hamburger{ display: flex; transition: all .5s ease-in; }
+    .hamburger span{ transition: all .5s ease-in; }
+    .hamburger.active span:nth-child(1){ transform: rotate(45deg) translate(5px, 2px); }
+    .hamburger.active span:nth-child(2){ opacity: 0; }
+    .hamburger.active span:nth-child(3){ transform: rotate(-45deg) translate(5px, -2px); }
+    .how-it-wroks-card{ width: 275px !important; }
+    .how-it-wroks-card-2{ margin-left:60px; }
+    .how-it-wroks-card-3{ margin-left: 150px; }
+    .how-it-wroks-card-4{ margin-left:220px; }
+    .how-it-wroks-card-1::before{ left: -33px; }
+    .how-it-wroks-card-2::before{ left: 57px; }
+    .how-it-wroks-card-3::before{ left: 127px; }
+    .hm-abt-right{ width: 100%; }
+    .knowledge-hub-text-wrapper{ flex-direction: column; margin-bottom: 20px; }
+    .knowledge-hub-text-wrapper h2{ width: 100%; margin-bottom: 12px; }
+    .knowledge-hub-text-wrapper p{ width: 100%; }
+    .mentor-title-wrapper, .explore-exams-title-text-wrapper{ text-align: left; }
+    .mentor-title-wrapper .section-chip-wrapper, .explore-exams-title-text-wrapper .section-chip-wrapper{ justify-content: flex-start; }
+    .home-hero-stats-wrapper{ margin-top: 30px; }
+    .testimonial-title-text-wrapper h2{ margin-bottom: 12px; }
+    .faq-section-left img{ margin-bottom: 20px; }
 }
 
 @media screen and (max-width: 639px){
     .home-hero-text-wrapper .home-hero-quote { width: 210px; margin-left: 145px; }
     .hm-abt-circle{ right: 22px; }
     .blog-card-1{ width: 110%; }
+    .how-it-wroks-card{ width: 310px !important; }
 }
 
 @media screen and (max-width: 575px){
+    .section{ padding: 50px 0; }
+
     .hm-abt-text-center-wrapper{ width: 100%; }
     .hm-abt-right{ width: 100%; }
     .blog-card-1{ width: 100%; }
@@ -542,8 +593,12 @@
     .home-hero-stats-wrapper{ margin-top: 30px; }
     .home-hero-kid-image-1{ bottom: 185px; }
     .home-hero-kid-image-2{ bottom: 185px; }
-    .home-hero-svg-center { width: 49px; left: 38%; bottom: 21px; }
+    .home-hero-svg-center { width: 49px; left: 42%; bottom: 48px; }
     .home-hero-svg-left{ bottom: 15px; }
+    .how-it-wroks-card{ width: 100% !important; }
+    .how-it-wroks-card-1::before, .how-it-wroks-card-2::before, .how-it-wroks-card-3::before{ display: none; }
+    .how-it-wroks-card-2, .how-it-wroks-card-3, .how-it-wroks-card-4{ margin-left: 0; }
+    .home-hero-stats-wrapper{ gap: 30px; margin-top: 58px; }
 }
 
 @media screen and (max-width: 480px){
@@ -574,15 +629,16 @@
     .mentor-title-wrapper{ text-align: left; }
     .mentor-title-wrapper .section-chip-wrapper{ justify-content: flex-start; }
     .home-how-it-works-text-wrapper{ width: 100%; }
+    .blog-card-1 h3{ font-size: 14px; line-height: 20px; }
 }
 
 @media screen and (max-width: 459px){
-    .home-hero-stats-wrapper{ flex-direction: column; gap: 0; margin-top: 20px; }
+    .home-hero-stats-wrapper{ flex-direction: column; justify-content: space-between; gap: 0; margin-top: 20px;  }
     .home-hero-wrapper{ height:595px; }
     .home-hero-text-wrapper .home-hero-quote{ margin-left: 80px; }
     .home-hero-kid-image-1{ width: 65px; bottom: 210px; left: 20px; }
     .home-hero-kid-image-2{ width: 65px; bottom: 210px; right: 20px; }
-    .home-hero-stats-2{ transform: translateX(100%); }
+    /* .home-hero-stats-2{ margin-left: 200px; } */
     .home-hero-svg-right{ bottom: 140px; }
     .home-hero-svg-center{ width: 57px; transform: rotate(30deg); bottom: 76px; }
     .home-hero-svg-left{ bottom: 72px; }
@@ -593,14 +649,46 @@
     .home-hero-degree-cap{ top: -28px; }
     .explore-content-wrapper-for-responsive{ padding-left: 0; }
     .blog-card-2 img, .blog-card-3 img{ height: 180px; }
+    .home-hero-stats-2{ margin-top: 0; }
+    .home-hero-svg-left{ display: none; }
+    .blog-card-1 img{ height: 180px; }
 }
 
 @media screen and (max-width: 400px){
     .home-hero-stats-2{ transform: translateX(90%); }
     .home-hero-svg-left{ display: none; }
     .home-hero-degree-cap{ top: -30px; right: -5px; }
+    .for-desktop{ display: none; }
+    .home-hero-text-wrapper .home-hero-quote{ margin-left: 0; width: 100%; }
+    .home-hero-kid-image-1, .home-hero-kid-image-2{ position: static; }
+    .home-hero-wrapper-for-responsive{ display: flex; flex-direction: column; }
+    .hm-stats-text-wrapper p{ padding: 0; }
+    .kids-image-wrapper{ display: flex; align-items: center;  gap: 20px; justify-content: space-between; margin-top: 12px;}
+    .hm-stats-text-wrapper{ display: flex; flex-direction: column; align-items: flex-start; }
+    .home-hero-wrapper{ height: 680px; }
+    .home-hero-kid-image-1{ width: 130px; }
+    .home-hero-kid-image-2{ width: 135px; }
+    .home-hero-stats-wrapper{ flex-direction: row; justify-content: space-between; }
+    .home-hero-stats-2{ transform: translate(0); }
+    .hm-stats-text-wrapper{ width: 112px; }
+    .home-hero-svg-center{ width: 64px; transform: rotate(-30deg); bottom:50px; left: 39%; }
+    .home-hero-text-wrapper .home-hero-quote{ padding-top: 15px; }
+    .home-hero-stats-wrapper{ flex-direction: column; gap: 30px; margin-top: 0; }
+    .hm-stats-text-wrapper{flex-direction: row; width: 100%; align-items: center; gap: 10px; }
+    .hm-stats-text-wrapper h2{ margin-bottom: 0; }
+    .home-hero-svg-center{ display: none; }
+    .what-we-are-img-text-wrapper{ width: 90%; }
+    .cta-join-btn-wrapper{ flex-direction: column; align-items: flex-start; }
+    .knowledge-hub-text-wrapper{ margin-bottom: 0; }
+    .explore-wrapper-for-responsive ul li .h4{ font-size: 16px; }
+    .footer-links ul li{ margin-bottom: 8px; }
 }
 
-@media screen and (max-width: 374px){}
+@media screen and (max-width: 374px){
+    /* .hm-stats-text-wrapper{ width: 110px; } */
+    .testimonial-card-description{ height: 125px; }
+    .testimonial-card.swiper-slide{ height: 265px !important; }
+    .mentor-card{ height: 200px !important;}
+}
 
 @media screen and (max-width: 359px){}
