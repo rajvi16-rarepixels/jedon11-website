@@ -100,19 +100,31 @@ hamburger.addEventListener("click", () => {
 const wrapper = document.querySelector(".wrapper");
 const carousel = document.querySelector(".carousel");
 const arrowBtns = document.querySelectorAll(".testimonial-arrows");
-const firstCardWidth = carousel.querySelector(".card").offsetWidth;
-const carouselChildrens = [...carousel.children];
 
 let isDragging = false, startX, startScrollLeft, timeoutId;
-let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
+let firstCardWidth, cardPerView, carouselChildrens;
 
-carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
-  carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
-})
+function initCarousel() {
+  firstCardWidth = carousel.querySelector(".card").offsetWidth;
+  carouselChildrens = [...carousel.children];
+  cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
 
-carouselChildrens.slice(0, cardPerView).forEach(card => {
-  carousel.insertAdjacentHTML("beforeend", card.outerHTML);
-})
+  carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
+    carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
+  })
+
+  carouselChildrens.slice(0, cardPerView).forEach(card => {
+    carousel.insertAdjacentHTML("beforeend", card.outerHTML);
+  })
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => {
+    requestAnimationFrame(initCarousel);
+  });
+} else {
+  requestAnimationFrame(initCarousel);
+}
 
 arrowBtns.forEach(btn => {
   btn.addEventListener("click", () => {
@@ -146,7 +158,7 @@ autoPlay();
 const infiniteScroll = () => {
   if(carousel.scrollLeft === 0) {
     carousel.classList.add("no-transition");
-    coursel.scrollLeft = coursel.scrollWidth - ( 2 * carousel.offsetWidth );
+    carousel.scrollLeft = carousel.scrollWidth - ( 2 * carousel.offsetWidth );
     carousel.classList.remove("no-transition");
   }
   else if(Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth){

@@ -405,8 +405,6 @@ body { font-family: 'poppins-rg';  }
 .home-hero-wrapper-for-responsive{ display: none; }
 .explore-wrapper-for-responsive ul li label span{ display: inline-block !important; }
 .collapsible-arrow{ display: inline-block; transform: rotate(90deg); }
-
-
 .wrapper .carousel{ 
     display: grid; 
     grid-auto-flow: column; 
