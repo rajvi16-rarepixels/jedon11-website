@@ -54,7 +54,7 @@
     .explore-exams-card-text .h4{ font-size: 24px; line-height: 32px; }
     .testimonial-card-description{ height: 235px; padding-bottom: 40px; margin-bottom: 20px; }
 
-    .testimonial-card.swiper-slide{ height: 420px !important; }
+    .testimonial-card{ height: 420px !important; }
     .testimonial-card-list{ margin-bottom: 70px; }
     .testimonial-name-initial{ font-size: 20px; line-height: 26px; padding: 10px 15px; }
     
@@ -140,7 +140,7 @@
 
     .testimonial-title-text-wrapper h2{ width: 600px; }
     .testimonial-card-description{ height: 220px; }
-    .testimonial-card.swiper-slide{ height: 400px !important; }
+    .testimonial-card{ height: 400px !important; }
     .testimonial-name-initial{ font-size: 20px; line-height: 20px; }
     .testimonial-card-list{ margin-bottom: 60px; }
     .testimonial-swiper-left{ display: flex; align-items: center; justify-content: center; }
@@ -165,7 +165,7 @@
     .footer-social-links-wrapper img{ width: 22px; height: 22px; }
     .mentor-text-wrapper{ width: 295px; }
     .testimonial-name-initial{ display: inline-block; margin-bottom: 0; }
-    .testimonial-card.swiper-slide{ padding: 20px; }
+    .testimonial-card{ padding: 20px; }
     .home-hero-stats-wrapper{ gap: 50px; }
     .home-hero-text-wrapper .home-hero-quote{ width: 382px; }
     .testimonial-text-right{ width: 440px; }
@@ -207,7 +207,7 @@
     .testimonial-text-right{ width: 520px; }
     .testimonial-name-initial{ font-size: 18px; line-height: 18px; }
     .testimonial-card-description{ height: 222px; }
-    .testimonial-card.swiper-slide{ height: 360px !important; }
+    .testimonial-card{ height: 360px !important; }
     .knowledge-column-2 h4, .knowledge-column-3 h4{ font-size: 16px; line-height: 22px; }
     .blog-card-1 h3{ font-size: 16px; line-height: 22px; }
 
@@ -278,7 +278,7 @@
     .knowledge-hub-text-wrapper h2{ width: 430px; }
     .knowledge-hub-text-wrapper p{ width: 380px; }
     .testimonial-card-description{ height: 190px; }
-    .testimonial-card.swiper-slide{ height: 330px !important; }
+    .testimonial-card{ height: 330px !important; }
     .testimonial-swiper-arrow{ width: 20px; height: 20px; }
     .site-radius-20{ border-radius: 14px; }
     .arrow-prev{ width: 20px; height: 20px; }
@@ -348,7 +348,7 @@
     .explore-exams-button-wrapper button{ font-size: 16px; line-height: 24px; }
     .testimonial-card-description{ height: 145px; }
     .testimonial-card-description{ border-bottom: 1px solid #d6d6d6; }
-    .testimonial-card.swiper-slide{ padding: 20px; height: 260px !important; }
+    .testimonial-card{ padding: 20px; height: 260px !important; }
     .testimonial-card-list{ margin-bottom: 40px; }
     /* .testi-review-names{ gap: 5px; } */
     .mentor-card{ height: 200px !important; }
@@ -399,6 +399,8 @@
     .nav-links-wrapper ul{ gap: 15px; }
     .nav-bar-wrapper{ padding: 15px; }
     .home-hero-text-wrapper .home-hero-quote{ width: 280px; }
+
+    .wrapper .carousel{ grid-auto-columns: calc((100% / 2) - 9px); }
 }
 
 @media screen and (max-width: 1023px){
@@ -453,7 +455,7 @@
     .knowledge-hub-text-wrapper h2{ width: 370px; }
     .blog-card-1{ width: 258px; }
     .testimonial-card-description{ padding-top: 20px; height: 105px; }
-    .testimonial-card.swiper-slide{ height: 250px !important; }
+    .testimonial-card{ height: 250px !important; }
     .faq-section-left{ width: 300px; }
     .faq-section-left img{ width: 230px; }
     .hm-what-we-offer-btn-wrapper .pathway-tab.h4{ font-size: 14px; line-height: 20px; }
@@ -492,7 +494,7 @@
     .hm-what-we-offer-btn-wrapper .pathway-tab.h4{ width: 100%; }
     .hm-what-we-offer-text-wrapper{ text-align: left; }
     .hm-what-we-offer-text-wrapper .section-chip-wrapper{ justify-content: flex-start; margin-bottom: 20px; }
-    .testimonial-card.swiper-slide{ height: 230px !important; }
+    .testimonial-card{ height: 230px !important; }
     .testimonial-card-description{ height: 140px; }
     .mentor-card{ height: 220px !important; }
     .footer-links-wrapper{ gap: 30px; }
@@ -565,6 +567,7 @@
     .home-hero-stats-wrapper{ margin-top: 30px; }
     .testimonial-title-text-wrapper h2{ margin-bottom: 12px; }
     .faq-section-left img{ margin-bottom: 20px; }
+    .wrapper .carousel{ grid-auto-columns: 100%; }
 }
 
 @media screen and (max-width: 639px){
@@ -624,7 +627,7 @@
     .blog-card{ width: 100%; }
     .blog-card-2 img, .blog-card-3 img{ height: 200px; }
     .testimonial-card-description{ height: 105px; }
-    .testimonial-card.swiper-slide{ height: 250px !important; }
+    .testimonial-card{ height: 250px !important; }
     .faq-section-left{ width: 100%; }
     .mentor-title-wrapper{ text-align: left; }
     .mentor-title-wrapper .section-chip-wrapper{ justify-content: flex-start; }
@@ -693,7 +696,7 @@
 @media screen and (max-width: 374px){
     /* .hm-stats-text-wrapper{ width: 110px; } */
     .testimonial-card-description{ height: 125px; }
-    .testimonial-card.swiper-slide{ height: 265px !important; }
+    .testimonial-card{ height: 265px !important; }
     .mentor-card{ height: 200px !important;}
 }
 

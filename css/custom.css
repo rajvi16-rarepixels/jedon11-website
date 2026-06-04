@@ -275,7 +275,7 @@ body { font-family: 'poppins-rg';  }
 .testimonial-title-text-wrapper h2{ width: 666px; }
 .testimonial-text-right{ width: 548px; }
 .swiper-wrapper{ margin-top: 30px; }
-.testimonial-card.swiper-slide { width: 440px; height: 500px !important; padding: 40px; }
+.testimonial-card { height: 500px !important; padding: 40px; }
 .testimonial-name-initial{ padding: 11px 17px; }
 .testimonial-card-description{ height: 265px; padding-top: 40px; padding-bottom: 60px; border-bottom: 1px solid #C4C4C4; margin-bottom: 40px; }
 .testimonial-section{ position: relative; }
@@ -405,3 +405,24 @@ body { font-family: 'poppins-rg';  }
 .home-hero-wrapper-for-responsive{ display: none; }
 .explore-wrapper-for-responsive ul li label span{ display: inline-block !important; }
 .collapsible-arrow{ display: inline-block; transform: rotate(90deg); }
+
+
+.wrapper .carousel{ 
+    display: grid; 
+    grid-auto-flow: column; 
+    grid-auto-columns: calc((100% / 3) - 12px); 
+    gap: 16px;  
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth; 
+    scrollbar-width: 0;
+}
+.carousel::-webkit-scrollbar{ display: none; }
+.wrapper{ width: 100%; margin-top: 20px; }
+.carousel.dragging .card{
+    cursor: grab;
+    user-select: none;
+}
+.carousel.dragging{ scroll-behavior: auto; scroll-snap-type: none; }
+.carousel .card{ scroll-snap-align: start; }
+.carousel.no-transition{ scroll-behavior: auto; }
