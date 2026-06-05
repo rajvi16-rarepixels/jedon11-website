@@ -257,11 +257,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const section = document.querySelector("#heroSection");
 const observer = new IntersectionObserver((entries) => { entries.forEach((entry) => {
-  if (entry.isIntersecting) { document.querySelector(".delay-1").classList.add(".show");
-    setTimeout(() => {document.querySelector(".delay-2").classList.add(".show");}, 1900);
-    setTimeout(() => {document.querySelector(".delay-3").classList.add(".show");startCounters();}, 2400);
-      observer.unobserve(section);
-    }
+      if (entry.isIntersecting) { document.querySelector(".delay-1").classList.add("show");
+        setTimeout(() => {
+          document
+            .querySelector(".reveal-left")
+            .classList.add("show");
+        }, 800);
+        setTimeout(() => {
+          document
+            .querySelector(".reveal-right")
+            .classList.add("show");
+        }, 1400);
+        setTimeout(() => {
+          document
+            .querySelector(".delay-2")
+            .classList.add("show");
+        }, 1900);
+        setTimeout(() => {
+          document
+            .querySelector(".delay-3")
+            .classList.add("show");
+          startCounters();
+        }, 2400);
+        observer.unobserve(section);
+      }
     });
   },
   {
@@ -283,7 +302,7 @@ function startCounters() {
       requestAnimationFrame(updateCounter);
     } else {
       counter.innerText = target + "+";
-    }
+     }
    };
    updateCounter();
  });
