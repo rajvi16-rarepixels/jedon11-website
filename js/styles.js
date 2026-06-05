@@ -85,7 +85,7 @@ arrowBtns.forEach(btn => {
   })
 });
 
-const dragStart = () => {
+const dragStart = (e) => {
   isDragging = true;
   carousel.classList.add("dragging");
   startX = e.pageX;
@@ -258,16 +258,16 @@ document.addEventListener("DOMContentLoaded", function () {
 const section = document.querySelector("#heroSection");
 const observer = new IntersectionObserver((entries) => { entries.forEach((entry) => {
       if (entry.isIntersecting) { document.querySelector(".delay-1").classList.add("show");
-        setTimeout(() => {
-          document
-            .querySelector(".reveal-left")
-            .classList.add("show");
-        }, 800);
-        setTimeout(() => {
-          document
-            .querySelector(".reveal-right")
-            .classList.add("show");
-        }, 1400);
+        // setTimeout(() => {
+        //   document
+        //     .querySelector(".reveal-left")
+        //     .classList.add("show");
+        // }, 800);
+        // setTimeout(() => {
+        //   document
+        //     .querySelector(".reveal-right")
+        //     .classList.add("show");
+        // }, 1400);
         setTimeout(() => {
           document
             .querySelector(".delay-2")

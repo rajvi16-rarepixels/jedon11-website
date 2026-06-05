@@ -42,38 +42,38 @@ a{ text-decoration: none; }
 
 @font-face {
     font-family: 'nunito-bd';
+    font-display: swap;
     src: url('/assets/fonts/Nunito-Bold.woff2') format('woff2'),
     url('/assets/fonts/Nunito-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
     font-family: 'nunito-sb';
+    font-display: swap;
     src: url('/assets/fonts/Nunito-SemiBold.woff2') format('woff2'),
     url('/assets/fonts/Nunito-SemiBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
     font-family: 'nunito-md';
+    font-display: swap;
     src: url('/assets/fonts/Nunito-Medium.woff2') format('woff2'),
     url('/assets/fonts/Nunito-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
     font-family: 'nunito-rg';
+    font-display: swap;
     src: url('/assets/fonts/Nunito-Regular.woff2') format('woff2'),
     url('/assets/fonts/Nunito-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
-    font-display: swap;
 }
 
 
