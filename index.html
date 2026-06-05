@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/responsive.css">
 
-    <link rel="preload" href="/assets/fonts/Nunito-Bold.woff2">
-    <link rel="preload" href="/assets/fonts/Nunito-Regular.woff2">
+    <!-- <link rel="preload" href="/assets/fonts/Nunito-Bold.woff2"> -->
+    <!-- <link rel="preload" href="/assets/fonts/Nunito-Regular.woff2"> -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/> -->
 </head>
 
@@ -54,7 +54,7 @@
     </Header>
 
     <!-- home hero -->
-    <main class="home-hero-wrapper ">
+    <main class="home-hero-wrapper" id="heroSection">
         <div class="container">
             <div class="home-hero-text-wrapper">
                 <div class="home-hero-title-wrapper">
@@ -78,7 +78,7 @@
                     </a>
                 </div>
 
-                <p class="text-rg h6 home-hero-quote for-desktop">Every resource is built from lived experience,
+                <p class="text-rg h6 home-hero-quote for-desktop reveal-up delay-1">Every resource is built from lived experience,
                     workshops, and
                     hands-on understanding of what truly works.</p>
 
@@ -124,34 +124,34 @@
             </div>
 
             <div class="home-hero-stats-wrapper for-desktop">
-                <div class="home-hero-stats-1 home-hero-stats">
+                <div class="home-hero-stats-1 home-hero-stats reveal-up delay-2">
                     <div class="home-hero-stat-1-icon home-hero-stats-icon site-radius-20">
                         <img fetchpriority="high" src="/assets/images/homepage/home-stats-icon-2.svg"
                             alt="home-hero-stats-1" width="30" height="30" />
                     </div>
 
                     <div class="hm-stats-text-wrapper">
-                        <h2 class="text-sb">300+</h2>
+                        <h2 class="text-sb counter" data-target="300">0</h2>
                         <p class="text-sb h4">Families guided</p>
                     </div>
                 </div>
 
-                <div class="home-hero-stats-2 home-hero-stats">
+                <div class="home-hero-stats-2 home-hero-stats reveal-up delay-3">
                     <div class="home-hero-stat-2-icon home-hero-stats-icon site-radius-20">
                         <img fetchpriority="high" src="/assets/images/homepage/home-stats-icon-1.svg"
                             alt="home-hero-stats-2" width="30" height="30" />
                     </div>
                     <div class="hm-stats-text-wrapper">
-                        <h2 class="text-sb">1200+</h2>
+                        <h2 class="text-sb counter" data-target="1200">0</h2>
                         <p class="text-sb h4">Hours Of real-life support</p>
                     </div>
                 </div>
             </div>
 
-            <img fetchpriority="high" class="home-hero-kid-image-1 for-desktop"
+                <img fetchpriority="high" class="home-hero-kid-image-1 for-desktop"
                 src="/assets/images/homepage/home-hero-kid-image-1.webp" alt="home-hero-kid-image-1" width="330"
                 height="388" />
-            <img fetchpriority="high" class="home-hero-kid-image-2 for-desktop"
+                <img fetchpriority="high" class="home-hero-kid-image-2 for-desktop"
                 src="/assets/images/homepage/home-hero-kid-image-2.webp" alt="hone-hero-kid-image-2" width="319"
                 height="394" />
 
@@ -166,7 +166,7 @@
     </main>
 
     <!-- how it works -->
-    <main class="section">
+    <main class="section how-it-works-section">
         <div class="container">
             <div class="home-how-it-works-text-wrapper">
                 <div class="section-chip-wrapper">
@@ -182,7 +182,7 @@
             </div>
 
             <div class="how-it-works-card-wrapper">
-                <div class="how-it-wroks-card how-it-wroks-card-1 site-radius-20" style="background-color: #D9EBFA;">
+                <div class="how-it-wroks-card delay-1 how-it-wroks-card-1 site-radius-20" style="background-color: #D9EBFA;">
                     <div class="how-it-works-wrapper">
                         <span class="site-radius-20 how-it-works-icon-1 how-it-works-icon">
                             <img src="/assets/images/homepage/home-how-it-works-card-1.svg" alt="home-icon" width="30"
@@ -198,7 +198,7 @@
                         strengths and gaps.</p>
                 </div>
 
-                <div class="how-it-wroks-card how-it-wroks-card-2 site-radius-20" style="background-color: #FFE8E3;">
+                <div class="how-it-wroks-card delay-2 how-it-wroks-card-2 site-radius-20" style="background-color: #FFE8E3;">
                     <div class="how-it-works-wrapper">
                         <span class="how-it-works-icon site-radius-20 how-it-works-icon-2">
                             <img src="/assets/images/homepage/home-how-it-works-card-2.svg" alt="home-icon" width="30"
@@ -214,7 +214,7 @@
                         family.</p>
                 </div>
 
-                <div class="how-it-wroks-card how-it-wroks-card-3 site-radius-20" style="background-color: #FDF5DC;">
+                <div class="how-it-wroks-card delay-3 how-it-wroks-card-3 site-radius-20" style="background-color: #FDF5DC;">
                     <div class="how-it-works-wrapper">
                         <span class="how-it-works-icon site-radius-20 how-it-works-icon-3">
                             <img src="/assets/images/homepage/home-how-it-works-card-3.svg" alt="home-icon" width="30"
@@ -230,7 +230,7 @@
                         and encouragement.</p>
                 </div>
 
-                <div class="how-it-wroks-card how-it-wroks-card-4 site-radius-20" style="background-color: #E1F1EC;">
+                <div class="how-it-wroks-card delay-4 how-it-wroks-card-4 site-radius-20" style="background-color: #E1F1EC;">
                     <div class="how-it-works-wrapper">
                         <span class="site-radius-20 how-it-works-icon how-it-works-icon-4">
                             <img src="/assets/images/homepage/home-how-it-works-card-4.svg" alt="home-icon" width="30"
@@ -280,10 +280,10 @@
                         </div>
                     </div>
 
-                    <div class="hm-abt-right hm-abt-text-wrapper-for-desktop">
-                        <img class="home-abt-image" src="/assets/images/homepage/homepage-abt-img.webp" alt="abt-img"
+                        <div class="hm-abt-right hm-abt-text-wrapper-for-desktop">
+                            <img class="home-abt-image" src="/assets/images/homepage/homepage-abt-img.webp" alt="abt-img"
                             width="782px" height="465px" loading="lazy" />
-                    </div>
+                        </div>
 
                     <div class="hm-abt-circle hm-abt-text-wrapper-for-desktop">
                         <div class="hm-abt-inner-circle">
@@ -452,13 +452,13 @@
                         <button class="h4 text-sb what-we-offer-swiper-btn active">Confidence & Readiness</button>
 
                         <div class="what-we-offer-button-text-wrapper">
-                            <img id="sliderImg" src="/assets/images/homepage/hm-what-we-offer-img-1.webp"
+                            <img class="sliderImg" src="/assets/images/homepage/hm-what-we-offer-img-1.webp"
                                 alt="what-we-offer" width="906" height="436" loading="lazy" />
 
                             <div class="what-we-are-img-text-wrapper slider-content">
-                                <h3 id="sliderTitle" class="h4 text-sb text-white">Readiness & Confidence Pathway</h3>
+                                <h3 class="h4 text-sb text-white sliderTitle">Readiness & Confidence Pathway</h3>
 
-                                <p id="sliderDesc" class="h6 text-rg text-white">A step‑by‑step roadmap that builds your
+                                <p class="h6 text-rg text-white sliderDesc">A step‑by‑step roadmap that builds your
                                     child’s
                                     competence and
                                     confidence so readiness checks
@@ -526,7 +526,7 @@
                 </div>
 
                 <div class="what-we-offer-button-wrapper">
-                    <div class="what-we-offer-swiper-left>
+                    <div class="what-we-offer-swiper-left">
                         <svg class="testimonial-swiper-arrow" width="30" height="30" viewBox="0 0 30 30" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0_2001_655" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
@@ -1773,6 +1773,8 @@
     </Footer>
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <script src="js/styles.js"></script>
 </body>
 
