@@ -434,13 +434,13 @@ body { font-family: 'poppins-rg';  }
 .how-it-wroks-card{ transform: translateY(100%); opacity: 0; transition: transform 0.8s, opacity 2.5s; }
 .how-it-wroks-card.active{ transform: none; opacity: 1; }
 
-.reveal-up{ opacity: 0; transition: all 0.8s ease; transform: translateY(60px); }
+.reveal-up{ opacity: 0; transition: all 0.4s ease; transform: translateY(60px); }
 .show{ transform: translate(0); opacity: 1; }
 .delay-1{ transition-delay: 0.2s; }
-.delay-2{ transition-delay: 0.4s; }
-.delay-3{ transition-delay: 0.6s; }
-.delay-4{ transition-delay: 0.8s; }
-.delay-5{ transition-delay: 1s; }
+.delay-2{ transition-delay: 0.6s; }
+.delay-3{ transition-delay: 1s; }
+.delay-4{ transition-delay: 1.4s; }
+.delay-5{ transition-delay: 1.8s; }
 
 
 .what-we-offer-swiper{ overflow: hidden; width: 100%; }
@@ -456,3 +456,4 @@ body { font-family: 'poppins-rg';  }
 .what-we-offer-swiper .swiper-wrapper::-webkit-scrollbar{ display: none; }
 .what-we-offer-swiper .swiper-slide{ flex: 0 0 100%; }
 .what-we-offer-swiper .swiper-wrapper.dragging{ scroll-behavior: auto; }
+.cta-join-btn-wrapper .home-hero-btn-wrapper{ width: max-content !important; }
