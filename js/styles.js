@@ -56,11 +56,18 @@ const arrowBtns = document.querySelectorAll(".testimonial-arrows");
 
 let isDragging = false, startX, startScrollLeft, timeoutId;
 let firstCardWidth, cardPerView, carouselChildrens;
+let carouselWidth = 0, carouselScrollableWidth = 0, isScrollPending = false;
+
+function updateCarouselMetrics() {
+  firstCardWidth = carousel.querySelector(".card").offsetWidth;
+  carouselWidth = carousel.offsetWidth;
+  carouselScrollableWidth = carousel.scrollWidth;
+}
 
 function initCarousel() {
-  firstCardWidth = carousel.querySelector(".card").offsetWidth;
+  updateCarouselMetrics();
   carouselChildrens = [...carousel.children];
-  cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
+  cardPerView = Math.round(carouselWidth / firstCardWidth);
 
   carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
     carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
@@ -69,8 +76,8 @@ function initCarousel() {
   carouselChildrens.slice(0, cardPerView).forEach(card => {
     carousel.insertAdjacentHTML("beforeend", card.outerHTML);
   })
+  requestAnimationFrame(updateCarouselMetrics);
 }
-
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => {
     requestAnimationFrame(initCarousel);
@@ -111,12 +118,12 @@ autoPlay();
 const infiniteScroll = () => {
   if (carousel.scrollLeft === 0) {
     carousel.classList.add("no-transition");
-    carousel.scrollLeft = carousel.scrollWidth - (2 * carousel.offsetWidth);
+    carousel.scrollLeft = carouselScrollableWidth - (2 * carouselWidth);
     carousel.classList.remove("no-transition");
   }
-  else if (Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth) {
+  else if (Math.ceil(carousel.scrollLeft) === carouselScrollableWidth - carouselWidth) {
     carousel.classList.add("no-transition");
-    carousel.scrollLeft = carousel.offsetWidth;
+    carousel.scrollLeft = carouselWidth;
     carousel.classList.remove("no-transition");
   }
 
@@ -127,7 +134,18 @@ const infiniteScroll = () => {
 carousel.addEventListener("mousedown", dragStart);
 carousel.addEventListener("mousemove", dragging);
 document.addEventListener("mouseup", dragStop);
-carousel.addEventListener("scroll", infiniteScroll);
+carousel.addEventListener("scroll", () => {
+  if (isScrollPending) return;
+  isScrollPending = true;
+  requestAnimationFrame(() => {
+    infiniteScroll();
+    isScrollPending = false;
+  });
+});
+
+window.addEventListener("resize", () => {
+  requestAnimationFrame(updateCarouselMetrics);
+});
 wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
 
